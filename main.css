@@ -65,20 +65,26 @@ hr {
   grid-row-start: 1;
 }
 
-.mainImageContainer:hover .mainImage {
-  opacity: 0.5;
-}
-
-.mainImageContainer:hover .hoverImagebg {
+.mainImageContainer:hover .the_eye {
   visibility: visible;
+  /* opacity: 0.5; */
 }
 
 .hoverImagebg {
-  background-color: hsl(215, 51%, 70%);
+  background-color: hsl(178, 100%, 50%);
   width: 100%;
   border-radius: 14px;
   text-align: center;
   /* display: none; */
+  grid-column-start: 1;
+  grid-row-start: 1;
+  display: grid;
+  visibility: hidden;
+}
+
+.the_eye {
+  border-radius: 14px;
+  text-align: center;
   grid-column-start: 1;
   grid-row-start: 1;
   display: grid;
