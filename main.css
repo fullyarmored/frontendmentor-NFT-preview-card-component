@@ -65,6 +65,10 @@ hr {
   grid-row-start: 1;
 }
 
+.mainImageContainer:hover .mainImage {
+  /* opacity: 0.5; */
+}
+
 .mainImageContainer:hover .hoverImagebg {
   visibility: visible;
   opacity: 0.5;
@@ -98,7 +102,7 @@ hr {
 }
 
 .eye {
-  /* margin: center; */
+  /* width: 70%; */
 }
 
 
