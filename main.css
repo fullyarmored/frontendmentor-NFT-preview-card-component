@@ -65,6 +65,11 @@ hr {
   grid-row-start: 1;
 }
 
+.mainImageContainer:hover .hoverImagebg {
+  visibility: visible;
+  opacity: 0.5;
+}
+
 .mainImageContainer:hover .the_eye {
   visibility: visible;
   /* opacity: 0.5; */
